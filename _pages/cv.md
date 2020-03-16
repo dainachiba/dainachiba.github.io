@@ -22,5 +22,5 @@ redirect_from:
 ## <i class="fas fa-graduation-cap"></i> Education
 * Ph.D. in Political Science, [Rice University](https://www.rice.edu/), 2012
 * M.A. in Political Science, [Rice University](https://www.rice.edu/), 2008
-* LL.M. in International Relations, [Hitotsubashi University](https://www.hit-u.ac.jp/), 2004
+* LL.M. in Jurisprudence and International Relations, [Hitotsubashi University](https://www.hit-u.ac.jp/), 2004
 * B.A. in Language and Area Studies, [Tokyo University of Foreign Studies](http://www.tufs.ac.jp/), 2002

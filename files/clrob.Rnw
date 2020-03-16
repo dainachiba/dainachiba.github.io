@@ -1,0 +1,177 @@
+\documentclass{article}
+
+\usepackage{setspace,geometry,fullpage}     % space package
+     \geometry{ margin = .95in,  }
+\usepackage{amsmath,amscd,bm,ifthen}
+\usepackage[tableposition=top]{caption}
+\usepackage[utf8]{inputenc}
+
+\usepackage[noae]{Sweave}
+\DefineVerbatimEnvironment{Sinput}{Verbatim}{
+  fontsize=\scriptsize,
+  fontfamily=courier,frame=single,framesep=2mm,
+  label={R Code},labelposition=topline} %numbers=left
+\DefineVerbatimEnvironment{Soutput}{Verbatim}{
+  fontsize=\scriptsize,fontfamily=courier}
+\DefineVerbatimEnvironment{Scode}{Verbatim}{fontshape=\small}
+
+\begin{document}
+
+\title{R code to illustrate robust \& clustered standard error calculation}
+\author{Daina Chiba\\ {\tt daina.chiba@gmail.com}}
+\date{\today}
+\maketitle
+
+\section{Robust standard error}
+This section illustrates the calculation of robust standard error for
+GLM models. Examples are taken from logit model presented in Oneal \& Russett (2005). 
+
+The log likelihood function for the $j$th observation is given as
+\begin{eqnarray}
+    \ln L_j &=& y_j \ln F (x_j \bm \beta) + (1-y_j) \ln F (x_j \bm \beta) 
+\end{eqnarray}
+where $y_j \in \{ 0, 1\}$ is the outcome variable and $F(\cdot)$ is the logit CDF. 
+
+Now, the formula for the robust estimator of variance is
+\begin{eqnarray}
+\hat{V} (\hat{\bm \beta}) &=& \hat{\bm V} \left( \frac{n}{n-1}\sum_{j=1}^{n} {\bm u'_j}{\bm u_j} \right) \hat{\bm V} \label{robv}
+\end{eqnarray}
+where $\hat{\bm V} = (-\partial^2 \ln L/\partial \bm \beta^2)^{-1}$ (conventional estimator of variance) and $\bm u_j$ (a row vector) is the contribution from the $j$th observation to $\partial \ln L/\partial \beta$.
+
+Tthe score, $\bm u_j$, or the first derivative of the log likelihood with respect to $x_j\beta$ is given by differentiating the log likelihood function 
+\begin{eqnarray}
+ \bm u_j &=& y_j * \frac{f(x_j \bm \beta)}{F(x_j \bm \beta)}x_j + (1-y_j) * (- \frac{f(x_j \bm \beta)}{1-F(x_j \bm \beta)}x_j) \label{robu}
+\end{eqnarray}
+where $f(\cdot)$ is the logit PDF.
+
+Now, let's estimate this step-by-step. First we read in the data set.
+<<prep>>=
+rm(list=ls())     ## Erase objects in memory
+options(scipen=1) ## display option (not essential)
+## Read in Data (from Oneal & Russett 2005, CMPS)
+data <- read.table("http://dynaman.net/data/or2005.txt",
+                  header= T, na.strings= "-99") 
+@ 
+
+We define the CDF and PDF of the logit in R.
+<<logit>>=
+### Logit distribution (F) & density (f) functions
+model <- "logit"
+F <- function(x){1/(1+exp(-x))}       # logit CDF
+f <- function(x){exp(x)/(1+exp(x))^2} # logit PDF
+@ 
+
+Now, estimate the logit model.
+<<estimate>>=
+### Estimate logit model
+fml <- as.formula(mzmid1 ~ smldem + lrgdem + smldep + allies + lncaprat + 
+                  dircont + lndstab + majpower + systsize + midpy + midpy1 + midpy2 + midpy3)
+fit <- glm(fml, data=data, family=binomial(link=model))
+beta <- fit$coef  # vector of beta coefficients
+vcov <- vcov(fit) # conventional variance matrix
+@ 
+
+Define some variables for convenience.
+<<defvar>>=
+### Define some variables for convenience
+y <- data$mzmid1
+k <- length(beta)               # N of covariates
+n <- nrow(data)                 # N of obs
+xvars <- names(beta)            # Name of covariates ordered accordingly
+xvars <- xvars[2:length(xvars)] # Delete (Intercept)
+xmat <- as.matrix(data[,xvars]) # Design matrix
+xmat <- cbind(1, xmat)          # Add intercept
+xb <- xmat %*% beta             # linear predictor (xb)
+@ 
+
+As we obtain the scores as defined in (\ref{robu}), we vectorize it for speed.
+<<scorerob>>=
+### Now, obtain robust s.e.
+u <- ((y==1) * f(xb)/F(xb) + (y==0) * -f(xb)/(1-F(xb)))[,1] * xmat
+@ 
+
+Finally, we calculate the robust estimator of variance as defined in (\ref{robv}).
+<<robvcov>>=
+rob.vcov <- vcov %*% ((n/(n-1)) * t(u)%*%u) %*% vcov
+@ 
+
+Present the robust and conventional standard errors, along with coefficient estimates, in tables.
+
+<<robtbl>>=
+rob.se <- sqrt(diag(rob.vcov)) ## robust s.e.
+con.se <- sqrt(diag(vcov))     ## conventional s.e. for comparison
+
+### Display robust s.e.
+rnd <- 3  # rounding point
+z <- beta/rob.se
+pval <- 2*(1-pnorm(abs(beta/rob.se)))
+rob.tbl <- cbind(beta = round(beta,rnd),
+                 se = round(rob.se,rnd),
+                 z = round(z,2),
+                 pval = round(pval,rnd))
+colnames(rob.tbl) <- c("coef", "s.e.", "z", "P>|z|")
+print("Results w/ Robust s.e. ")
+print(rob.tbl)
+
+### Display conventional s.e.
+z <- beta/con.se
+pval <- 2*(1-pnorm(abs(beta/con.se)))
+con.tbl <- cbind(beta = round(beta,rnd),
+                 se = round(con.se,rnd),
+                 z = round(z,2),
+                 pval = round(pval,rnd))
+colnames(con.tbl) <- c("coef", "s.e.", "z", "P>|z|")
+print("Results w/ conventional s.e.")
+print(con.tbl)
+@ 
+
+Results are very close to each other.
+
+\section{Clustered standard error}
+
+Next, we calculate standard errors adjusted for clusters in dyad.
+When observations are independent only across unit (dyad) and interdependent within unit, the robust variance estimator is given as
+\begin{eqnarray}
+\hat{V} (\hat{\bm \beta}) &=& \hat{\bm V} \left( \frac{m}{m-1}\sum_{k=1}^{m} {\bm u_k^{(G')}}{\bm u_k^{(G)}} \right) \hat{\bm V} \label{clv}
+\end{eqnarray}
+where $\bm u_k^{(G)}$ is the contribution from the $k$th group to $\partial \ln L/\partial \beta$.
+$\bm u_k^{(G)}, ~k = 1, ..., m$ is calculated simply as 
+\begin{eqnarray}
+  \bm u_k^{(G)} &=& \sum_{j\in G_k} \bm u_j .
+\end{eqnarray}
+To obtain this group-level score, we take summation of the scores, $u_j$, that we calculate in the previous section.
+As we have as many as 13277 groups (dyads), looping over groups is very time-consuming. 
+We thus utilize {\tt tapply} function, and loop over covariates. 
+
+<<clscore>>=
+m <- dim(table(data$dyadid))    # N of clusters
+u.clust <- matrix(NA, nrow=m, ncol=k)
+fc <- factor(data$dyadid)
+for (i in 1:k){ ## loop over covariates
+  u.clust[,i] <- tapply(u[,i], fc, sum) ## sum over dyad
+}
+@ 
+
+Then, we obtain the variance estimator as defined in (\ref{clv}).
+<<clv>>=
+cl.vcov <- vcov %*% ((m/(m-1)) * t(u.clust)%*%(u.clust)) %*% vcov ## sandwich
+@ 
+
+Present the results along with the conventional estimates.
+
+<<clres>>=
+cl.se <- sqrt(diag(cl.vcov)) ## clustered s.e.
+z <- beta/cl.se
+pval <- 2*(1-pnorm(abs(beta/cl.se)))
+cl.tbl <- cbind(beta = round(beta,rnd),
+                se = round(cl.se,rnd),
+                z = round(z,2),
+             pval = round(pval,rnd))
+colnames(cl.tbl) <- c("coef", "s.e.", "z", "P>|z|")
+print("Results w/ Robust s.e. clustered by Dyad")
+print(cl.tbl)
+print(con.tbl)
+@ 
+
+\end{document}
+

@@ -1,0 +1,158 @@
+body {
+    background-color:#ddd;
+    margin:10px 15% 0% 15%;
+    padding:0px;
+    font: 12px/1.2 Verdana, Arial, Helvetica, sans-serif, "Lucida Grande";
+}
+
+a {
+    color:#002469;
+    text-decoration:none;
+}
+a:link {color:#333;font-weight:bold;}
+a:visited {color:#666; text-decoration:none;font-weight:bold;}
+a:hover {text-decoration:none; color:#CD192A;background-color:transparent;font-weight:bold;}
+a:active {color:blue}
+
+/* ---------------------------------------------------------------------------Header */
+#pagetitle {
+	text-align: center;
+	font-size:350%;
+	font: Verdana;
+	margin:0px 0px 10px 0px;
+	padding:0px;
+	font-weight:900;
+	color:#333;
+}
+#pagetitle a:link{text-decoration:none; color:#666;font-weight:900;}
+#pagetitle a:visited{text-decoration:none;color:#666;font-weight:900;}
+#pagetitle a:hover{text-decoration:none;background-color: transparent;font-weight:900;}
+
+p.author {
+	text-align: right;
+	font-size:70%;
+	font: Verdana;
+	margin:0px 0px 0px 0px;
+	padding:0px 5%;
+	font-weight:900;
+	color:#333;
+}
+
+
+/* ---------------------------------------------------------------------------Menu */
+
+/*
+
+#MENU {text-align:right;
+    position:absolute;
+    width:100px; top:29px; right:80%;
+    border:1px solid transparent;
+    background-color: transparent;
+    padding: 20px;
+    z-index:3;
+    voice-family: "\"}\"";
+    voice-family:inherit;
+}
+#MENU h2 {display:none;}
+#MENU ul {margin:25px 0px 15px 0;padding:0px;}
+#MENU li{list-style-type:none;color:#000000; padding:8px;} 
+#MENU li a {
+    font-weight:100;
+    text-decoration:none; color:#000000;
+    border:1px solid transparent; padding:5px;}
+#MENU li a:hover{text-decoration:none;background-color:transparent;color:#000000;border:1px dashed #777; padding:5px;}
+#MENU li.menu-on a{border:1px solid #777;color:#000000;padding:5px;}
+
+*/
+
+/* ---------------------------------------------------------------------------Content */
+#content {
+    position:relative; 
+    width:auto;
+    min-width:50%;
+    margin:0% 5% 20px 5%;
+    border:1px solid #777; 
+    background-color:white;
+    padding:0px 10px 10px 20px;
+    line-height:150%;
+}
+#content h1 {
+    color:#444;
+/*    color:#002469;*/
+}
+#content h2 {
+    font-size:130%;
+    color:#CD192A;
+}
+
+/* --------------------------------------------------------------------------- Footer */
+#Copyright {
+    position:relative;
+    bottom:10px;
+    left: 10px;
+    clear:both;
+    margin:0% -3% 0px 5%;
+    font-weight:800;
+    color:#222;
+}
+#Copyright address{
+    font:10px/20px verdana, arial, helvetica, sans-serif;
+}
+#Copyright a{text-decoration:none;background-color:transparent;color:black}
+#Copyright a:hover{text-decoration:none;background-color:transparent;color:black}
+#Copyright a:visited{text-decoration:none;background-color:transparent;color:black}
+
+/* --------------------------------------------------------------------------- Misc. */
+.quote {
+    margin-left: 20px;
+}
+
+/* Display "LaTeX" nicely (hacked from Bernd Beber's webpage) */
+span.TEX {letter-spacing: -0.125em;}
+span.TEX span.E {position:relative;top:0.5ex;left:-0.0417em;}
+a span.TEX span.E {text-decoration: none;}
+span.LATEX span.A{position:relative; top:-0.5ex; left:-0.4em; font-size:85%;}
+span.LATEX span.TEX{position:relative; left: -0.4em;}
+
+.phead {
+  	font: Verdana;font-size:110%;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.expln {
+	position:relative;
+	width:auto;
+	margin:10px 20px 10px 20px;
+	border:1px dashed gray; 
+	background-color:#e8e8e8;
+	padding:10px;
+	}
+.codefrag {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.codefrag2 {
+  font-family: "Courier New", Courier, monospace;
+  background-color:#eee;
+}
+
+table {
+    font-size:100%;
+    margin:12px 3px 10px;
+    padding:0px;
+    background:transparent;
+    border:1px solid transparent;
+    line-height:150%;
+}
+
+table td {
+    vertical-align:top;
+}
+
+table td.main {
+    padding:12px 30px 0 30px;
+    width:100%;
+}
+
+

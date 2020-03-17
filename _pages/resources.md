@@ -13,7 +13,7 @@ I have written [a book on riichi mahjong strategies](/RiichiBooks/) and am (very
 
 ## <i class="fas fa-code"></i> Code fragments
 
-Here are some of the computer code fragments I've written and their rough write-ups. 
+Here are some rough write-ups of computer code fragments I've written in the past.  
 
 * Compiling a cross-national data set ([R markdown](/files/worlddata.html))  
   * The resulting data set ([.csv](/files/worlddata.csv))  

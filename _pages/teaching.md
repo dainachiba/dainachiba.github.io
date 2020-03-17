@@ -30,13 +30,13 @@ I have taught courses on international relations and political methodology at va
 
 ## <i class="fas fa-globe"></i> Courses on international relations  
 
-* Theories of international relations  
+* Theories of International Relations  
   * At University of Essex (2013-2015)  
   * Graduate level  
-* International negotiation  
+* International Negotiation  
   * At University of Essex (2016-2018), Kobe University (2018)  
   * Undergraduate and graduate level  
-* International conflict  
+* International Conflict  
   * At Rice University (2011), Duke University (2013), Akita International University (2014)  
   * Undergraduate level  
 

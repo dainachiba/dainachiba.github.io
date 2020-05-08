@@ -7,6 +7,14 @@ redirect_from:
   - /research.html
 ---
 
+## <i class="fas fa-flask"></i> Selected working papers
+
+* "Make Two Democracies and Call Me in the Morning: Endogenous Regime Type and the Democratic Peace" (with Erik Gartzke) [Paper](../files/makedempeace_2020.pdf), [Slides](../files/makedempeace_slides.pdf)  
+* "Territorial Indivisibility and Public Preference for Dispute Resolution: Evidence from Japan" (with Songying Fang, Xiaojun Li, and Atsushi Tago)  
+* "Much Ado about Something: Predicting Interstate Crises Onset and Resolution over Contentious Issues" (with Kristian Skrede Gleditsch)  
+* "Peaceful Territorial Transfers and Third-Party Conflict" (with William Reed)  
+* "Do International Court Judgements Produce Political Cover? Evidence from a Survey Experiment in Japan" (with Atsushi Tago and Kazunori Inamasu)  
+
 ## <i class="fas fa-project-diagram"></i> Published articles
 
 0. Chiba, Daina and Jesse C. Johnson. 2019. "Military Coalitions and Crisis Duration." _Journal of Politics_ 81(4): 1466-1479. [DOI](https://doi.org/10.1086/704598), [Replication data](https://doi.org/10.7910/DVN/KJ6X76)  
@@ -20,11 +28,4 @@ redirect_from:
 0. Reed, William and Daina Chiba. 2010. "Decomposing the Relationship Between Contiguity and Militarized Conflict." _American Journal of Political Science_ 54(1): 61-73. [DOI](https://doi.org/10.1111/j.1540-5907.2009.00418.x), [Replication data](https://doi.org/10.7910/DVN/C7JA8S)  
 {: reversed="reversed"}
 
-## <i class="fas fa-flask"></i> Selected working papers
-
-* "Territorial Indivisibility and Public Preference for Dispute Resolution: Evidence from Japan" (with Songying Fang, Xiaojun Li, and Atsushi Tago)  
-* "Make Two Democracies and Call Me in the Morning: Endogenous Regime Type and the Democratic Peace" (with Erik Gartzke)  
-* "Much Ado about Something: Predicting Interstate Crises Onset and Resolution over Contentious Issues" (with Kristian Skrede Gleditsch)  
-* "Peaceful Territorial Transfers and Third-Party Conflict" (with William Reed)  
-* "Do International Court Judgements Produce Political Cover? Evidence from a Survey Experiment in Japan" (with Atsushi Tago and Kazunori Inamasu)  
 

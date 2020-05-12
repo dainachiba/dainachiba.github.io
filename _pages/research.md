@@ -15,7 +15,7 @@ redirect_from:
 * "Peaceful Territorial Transfers and Third-Party Conflict" (with William Reed)  
 * "Do International Court Judgements Produce Political Cover? Evidence from a Survey Experiment in Japan" (with Atsushi Tago and Kazunori Inamasu)  
 
-## <i class="fas fa-project-diagram"></i> Published articles
+## <i class="far fa-file-alt"></i> Published articles
 
 0. Chiba, Daina and Jesse C. Johnson. 2019. "Military Coalitions and Crisis Duration." _Journal of Politics_ 81(4): 1466-1479. [DOI](https://doi.org/10.1086/704598), [Replication data](https://doi.org/10.7910/DVN/KJ6X76)  
 0. Chiba, Daina and Tobias Heinrich. 2019. "Colonial Legacy and Foreign Aid: Decomposing the Colonial Bias." _International Interactions_ 45(3): 474-499. [DOI](https://doi.org/10.1080/03050629.2019.1593834), [Replication data](https://doi.org/10.7910/DVN/PAHRCK)  

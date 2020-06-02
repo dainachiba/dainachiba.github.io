@@ -1,6 +1,8 @@
 /* ==========================================================================
    BASE ELEMENTS
    ========================================================================== */
+$body-typeface: $sans-serif;
+
 html, html[data-theme="light"] {
   /* sticky footer fix */
   position: relative;

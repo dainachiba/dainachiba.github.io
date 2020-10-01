@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Senior Lecturer in the [Department of Government](https://www.essex.ac.uk/departments/government) at the [University of Essex](https://www.essex.ac.uk/). Before joining Essex, I obtained a Ph.D. in [Political Science](https://politicalscience.rice.edu/) from [Rice University](https://rice.edu/) (Houston, Texas) in 2012 and then worked as a Postdoctoral Associate at [Duke University](https://duke.edu/) (Durham, North Carolina) for one year. 
+I was a Senior Lecturer in the [Department of Government](https://www.essex.ac.uk/departments/government) at the [University of Essex](https://www.essex.ac.uk/). Before joining Essex, I obtained a Ph.D. in [Political Science](https://politicalscience.rice.edu/) from [Rice University](https://rice.edu/) (Houston, Texas) in 2012 and then worked as a Postdoctoral Associate at [Duke University](https://duke.edu/) (Durham, North Carolina) for one year. 
 
 My research interests lie at the intersection of data science and international politics. 
 In particular, I apply quantitative methods to study why, when, and how a violent conflict arises between and within states and how political institutions influence states' conflict behaviors. 

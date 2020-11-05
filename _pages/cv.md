@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Curriculum Vitae in PDF](/files/cv_chiba.pdf)
+[Curriculum Vitae in PDF](/files/cv_dchiba.pdf)
 
 ## <i class="fas fa-university"></i> Academic appointments
 * [Kobe University](https://www.kobe-u.ac.jp/en/index.html), Graduate School of Law

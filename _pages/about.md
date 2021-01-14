@@ -13,5 +13,5 @@ Before joining Kobe, I was a senior lecturer (associate professor) in government
 I obtained a Ph.D in political science from [Rice University](https://rice.edu/) and completed a postdoctoral fellowship at [Duke University](https://duke.edu/) in the United States. 
 
 My research interests lie at the intersection of data science and international politics. 
-In particular, I apply quantitative methods to study why, when, and how a violent conflict arises between and within states and how political institutions influence states' conflict behaviors. 
+In particular, I apply formal and quantitative methods to study why, when, and how a violent conflict arises between and within states and how political institutions influence actors' behaviors. 
 My work has appeared in various academic journals, including <i>American Journal of Political Science</i>, <i>Political Analysis</i>, <i>Journal of Politics</i>, and <i>Journal of Conflict Resolution</i>. 

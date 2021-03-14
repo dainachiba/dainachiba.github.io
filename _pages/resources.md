@@ -19,5 +19,6 @@ Here are some rough write-ups of computer code fragments I've written in the pas
   * The resulting data set ([.csv](/files/worlddata.csv))  
 * Numerical and graphical summaries of data ([R markdown](/files/gv900-week4.html))  
 * Univariate and bivariate summaries of data ([R markdown](/files/gv900-week6.html))  
-* [LaTeX resources for Rice students and scholars](/RiceBeamer/)  
+* [LaTeX Beamer template for Kobe University](https://github.com/dainachiba/KobeMetropolis)  
+* [LaTeX resources for Rice University](/RiceBeamer/)  
 * R utilities for clustered standard error: [Sweave output (pdf)](/files/clrob.pdf) and [source](/files/clrob.Rnw)   

@@ -12,8 +12,14 @@ redirect_from:
 [Curriculum Vitae in PDF](/files/cv_dchiba.pdf)
 
 ## <i class="fas fa-university"></i> Academic appointments
-* [Kobe University](https://www.kobe-u.ac.jp/en/index.html), Graduate School of Law
+* [Waseda University](https://www.waseda.jp/), Institute of Political Economy
+  * Apr. 2021 - present: Junior Researcher
+
+* [Kobe University](https://www.kobe-u.ac.jp/en/), Graduate School of Law
   * Nov. 2020 - present: Visiting Research Fellow
+
+* [University of Macau](https://www.um.edu.mo/), [Department of Government and Public Administration](https://www.um.edu.mo/fss/pa/)
+  * Aug. 2020 - : Associate Professor of Political Science (commencement is pending)
 
 * [University of Essex](https://www.essex.ac.uk/), Department of Government
   * Oct. 2016 - Aug. 2020: Senior Lecturer (Associate Professor)

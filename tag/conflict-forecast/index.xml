@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conflict Forecast | Daina Chiba</title>
+    <link>/tag/conflict-forecast/</link>
+      <atom:link href="/tag/conflict-forecast/index.xml" rel="self" type="application/rss+xml" />
+    <description>Conflict Forecast</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 30 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_2.png</url>
+      <title>Conflict Forecast</title>
+      <link>/tag/conflict-forecast/</link>
+    </image>
+    
+    <item>
+      <title>Much Ado about Something: Predicting Interstate Crises Onset and Resolution over Contentious Issues</title>
+      <link>/research/muchado/</link>
+      <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/research/muchado/</guid>
+      <description>&lt;p&gt;We explore whether dynamic information from event data can improve our
+ability to forecast the onset and termination of international crises.
+Studies of dyadic interstate conflicts have demonstrated that taking
+into account contentious issues between countries can improve on
+conventional models explaining dyadic violent conflict based on purely
+structural factors (e.g., Gibler 2012, Gleditsch and Ward 2013).
+However, data on contentious issues are often limited to particular
+types such as claims over territory, river, or sea, although states
+can experience violent conflict over various other issues such as
+weapons program or regime type that may not be recorded in existing
+data. Recent work on civil and interstate wars suggests that information
+from news can improve structural conflict prediction that can help
+capture changes over time (Chadefaux 2014, Muller &amp;amp; Rauh 2018). We seek to combine measures
+of contentious issues and levels of conflict and cooperation between
+states based on event data to forecast the onset and resolution of ICB
+conflict data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Shape of Things to Come? Expanding the Inequality and Grievance Model for Civil War Forecasts with Event Data</title>
+      <link>/publication/chiba-shape-things-come-2017/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/chiba-shape-things-come-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Every Story Has a Beginning, Middle, and an End (But Not Always in That Order): Predicting Duration Dynamics in a Unified Framework</title>
+      <link>/publication/chiba-every-story-has-2015/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/chiba-every-story-has-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

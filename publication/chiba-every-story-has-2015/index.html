@@ -33,7 +33,7 @@
   <meta name="description" content="There are three fundamental duration dynamics of civil conflicts: time until conflict onset, conflict duration, and time until conflict recurrence. Theoretical and empirical models of war usually focus on one or at most two aspects of these three important duration dynamics. We present a new split-population seemingly unrelated duration estimator that treats pre-conflict duration, conflict duration, and post-conflict duration as interdependent processes thus permitting improved predictions about the onset, duration, and recurrence of civil conflict. Our findings provide support for the more fundamental idea that prediction is dependent on a good approximation of the theoretically implied underlying data-generating process. In addition, we account for the fact that some countries might never experience these duration dynamics or become immune after experiencing them in the past." />
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/chiba-every-story-has-2015/" />
+  <link rel="alternate" hreflang="en-us" href="https://dainachiba.github.io/publication/chiba-every-story-has-2015/" />
 
   
 
@@ -251,6 +251,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-31191481-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-31191481-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -273,7 +312,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_32x32_fill_lanczos_center_2.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="/publication/chiba-every-story-has-2015/" />
+  <link rel="canonical" href="https://dainachiba.github.io/publication/chiba-every-story-has-2015/" />
 
   
   
@@ -290,10 +329,10 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Daina Chiba" />
-  <meta property="og:url" content="/publication/chiba-every-story-has-2015/" />
+  <meta property="og:url" content="https://dainachiba.github.io/publication/chiba-every-story-has-2015/" />
   <meta property="og:title" content="Every Story Has a Beginning, Middle, and an End (But Not Always in That Order): Predicting Duration Dynamics in a Unified Framework | Daina Chiba" />
-  <meta property="og:description" content="There are three fundamental duration dynamics of civil conflicts: time until conflict onset, conflict duration, and time until conflict recurrence. Theoretical and empirical models of war usually focus on one or at most two aspects of these three important duration dynamics. We present a new split-population seemingly unrelated duration estimator that treats pre-conflict duration, conflict duration, and post-conflict duration as interdependent processes thus permitting improved predictions about the onset, duration, and recurrence of civil conflict. Our findings provide support for the more fundamental idea that prediction is dependent on a good approximation of the theoretically implied underlying data-generating process. In addition, we account for the fact that some countries might never experience these duration dynamics or become immune after experiencing them in the past." /><meta property="og:image" content="/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="There are three fundamental duration dynamics of civil conflicts: time until conflict onset, conflict duration, and time until conflict recurrence. Theoretical and empirical models of war usually focus on one or at most two aspects of these three important duration dynamics. We present a new split-population seemingly unrelated duration estimator that treats pre-conflict duration, conflict duration, and post-conflict duration as interdependent processes thus permitting improved predictions about the onset, duration, and recurrence of civil conflict. Our findings provide support for the more fundamental idea that prediction is dependent on a good approximation of the theoretically implied underlying data-generating process. In addition, we account for the fact that some countries might never experience these duration dynamics or become immune after experiencing them in the past." /><meta property="og:image" content="https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_2.png" />
+    <meta property="twitter:image" content="https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -323,7 +362,7 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/publication/chiba-every-story-has-2015/"
+    "@id": "https://dainachiba.github.io/publication/chiba-every-story-has-2015/"
   },
   "headline": "Every Story Has a Beginning, Middle, and an End (But Not Always in That Order): Predicting Duration Dynamics in a Unified Framework",
   
@@ -340,7 +379,7 @@
     "name": "Daina Chiba",
     "logo": {
       "@type": "ImageObject",
-      "url": "/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_192x192_fill_lanczos_center_2.png"
+      "url": "https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "There are three fundamental duration dynamics of civil conflicts: time until conflict onset, conflict duration, and time until conflict recurrence. Theoretical and empirical models of war usually focus on one or at most two aspects of these three important duration dynamics. We present a new split-population seemingly unrelated duration estimator that treats pre-conflict duration, conflict duration, and post-conflict duration as interdependent processes thus permitting improved predictions about the onset, duration, and recurrence of civil conflict. Our findings provide support for the more fundamental idea that prediction is dependent on a good approximation of the theoretically implied underlying data-generating process. In addition, we account for the fact that some countries might never experience these duration dynamics or become immune after experiencing them in the past."
@@ -919,7 +958,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/chiba-every-story-has-2015/&amp;text=Every%20Story%20Has%20a%20Beginning,%20Middle,%20and%20an%20End%20%28But%20Not%20Always%20in%20That%20Order%29:%20Predicting%20Duration%20Dynamics%20in%20a%20Unified%20Framework" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://dainachiba.github.io/publication/chiba-every-story-has-2015/&amp;text=Every%20Story%20Has%20a%20Beginning,%20Middle,%20and%20an%20End%20%28But%20Not%20Always%20in%20That%20Order%29:%20Predicting%20Duration%20Dynamics%20in%20a%20Unified%20Framework" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -932,7 +971,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/chiba-every-story-has-2015/&amp;t=Every%20Story%20Has%20a%20Beginning,%20Middle,%20and%20an%20End%20%28But%20Not%20Always%20in%20That%20Order%29:%20Predicting%20Duration%20Dynamics%20in%20a%20Unified%20Framework" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://dainachiba.github.io/publication/chiba-every-story-has-2015/&amp;t=Every%20Story%20Has%20a%20Beginning,%20Middle,%20and%20an%20End%20%28But%20Not%20Always%20in%20That%20Order%29:%20Predicting%20Duration%20Dynamics%20in%20a%20Unified%20Framework" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -945,7 +984,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Every%20Story%20Has%20a%20Beginning,%20Middle,%20and%20an%20End%20%28But%20Not%20Always%20in%20That%20Order%29:%20Predicting%20Duration%20Dynamics%20in%20a%20Unified%20Framework&amp;body=/publication/chiba-every-story-has-2015/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Every%20Story%20Has%20a%20Beginning,%20Middle,%20and%20an%20End%20%28But%20Not%20Always%20in%20That%20Order%29:%20Predicting%20Duration%20Dynamics%20in%20a%20Unified%20Framework&amp;body=https://dainachiba.github.io/publication/chiba-every-story-has-2015/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -958,7 +997,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/chiba-every-story-has-2015/&amp;title=Every%20Story%20Has%20a%20Beginning,%20Middle,%20and%20an%20End%20%28But%20Not%20Always%20in%20That%20Order%29:%20Predicting%20Duration%20Dynamics%20in%20a%20Unified%20Framework" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://dainachiba.github.io/publication/chiba-every-story-has-2015/&amp;title=Every%20Story%20Has%20a%20Beginning,%20Middle,%20and%20an%20End%20%28But%20Not%20Always%20in%20That%20Order%29:%20Predicting%20Duration%20Dynamics%20in%20a%20Unified%20Framework" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -971,7 +1010,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Every%20Story%20Has%20a%20Beginning,%20Middle,%20and%20an%20End%20%28But%20Not%20Always%20in%20That%20Order%29:%20Predicting%20Duration%20Dynamics%20in%20a%20Unified%20Framework%20/publication/chiba-every-story-has-2015/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Every%20Story%20Has%20a%20Beginning,%20Middle,%20and%20an%20End%20%28But%20Not%20Always%20in%20That%20Order%29:%20Predicting%20Duration%20Dynamics%20in%20a%20Unified%20Framework%20https://dainachiba.github.io/publication/chiba-every-story-has-2015/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -984,7 +1023,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/chiba-every-story-has-2015/&amp;title=Every%20Story%20Has%20a%20Beginning,%20Middle,%20and%20an%20End%20%28But%20Not%20Always%20in%20That%20Order%29:%20Predicting%20Duration%20Dynamics%20in%20a%20Unified%20Framework" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://dainachiba.github.io/publication/chiba-every-story-has-2015/&amp;title=Every%20Story%20Has%20a%20Beginning,%20Middle,%20and%20an%20End%20%28But%20Not%20Always%20in%20That%20Order%29:%20Predicting%20Duration%20Dynamics%20in%20a%20Unified%20Framework" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

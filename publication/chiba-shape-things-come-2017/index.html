@@ -33,7 +33,7 @@
   <meta name="description" content="We examine if dynamic information from event data can help improve on a model attempting to forecast civil war using measures reflecting plausible motivation and grievances. Buhaug, Cederman, and Gleditsch predict the risk of civil war using a horizontal inequality model with measures reflecting motivation and relevant group characteristics at the country level. The predictions from their model outperform in an out-of-sample forecast conventional country-level models of civil war, emphasizing vertical inequality and country characteristics. However, most grievance measures change little over time. We surmise that a model reflecting potential motivation for conflict can be improved with more dynamic information on mobilization and the behavior of actors. Our conjecture receives some support in the empirical analysis, where we consider both conflict onset and termination over territorial and governmental incompatibilities in the Uppsala/PRIO Armed Conflict Data, and find some evidence that event data can help improve forecasts. Moreover, models with the original grievance measures do better than purely event based models, supporting our claim that both structure and event based components can add value to conflict prediction models. However, the contribution of events to improving predictive power is modest and not entirely consistent, and some types of conflict events seem easier to forecast than others." />
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/chiba-shape-things-come-2017/" />
+  <link rel="alternate" hreflang="en-us" href="https://dainachiba.github.io/publication/chiba-shape-things-come-2017/" />
 
   
 
@@ -251,6 +251,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-31191481-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-31191481-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -273,7 +312,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_32x32_fill_lanczos_center_2.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="/publication/chiba-shape-things-come-2017/" />
+  <link rel="canonical" href="https://dainachiba.github.io/publication/chiba-shape-things-come-2017/" />
 
   
   
@@ -290,10 +329,10 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Daina Chiba" />
-  <meta property="og:url" content="/publication/chiba-shape-things-come-2017/" />
+  <meta property="og:url" content="https://dainachiba.github.io/publication/chiba-shape-things-come-2017/" />
   <meta property="og:title" content="The Shape of Things to Come? Expanding the Inequality and Grievance Model for Civil War Forecasts with Event Data | Daina Chiba" />
-  <meta property="og:description" content="We examine if dynamic information from event data can help improve on a model attempting to forecast civil war using measures reflecting plausible motivation and grievances. Buhaug, Cederman, and Gleditsch predict the risk of civil war using a horizontal inequality model with measures reflecting motivation and relevant group characteristics at the country level. The predictions from their model outperform in an out-of-sample forecast conventional country-level models of civil war, emphasizing vertical inequality and country characteristics. However, most grievance measures change little over time. We surmise that a model reflecting potential motivation for conflict can be improved with more dynamic information on mobilization and the behavior of actors. Our conjecture receives some support in the empirical analysis, where we consider both conflict onset and termination over territorial and governmental incompatibilities in the Uppsala/PRIO Armed Conflict Data, and find some evidence that event data can help improve forecasts. Moreover, models with the original grievance measures do better than purely event based models, supporting our claim that both structure and event based components can add value to conflict prediction models. However, the contribution of events to improving predictive power is modest and not entirely consistent, and some types of conflict events seem easier to forecast than others." /><meta property="og:image" content="/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="We examine if dynamic information from event data can help improve on a model attempting to forecast civil war using measures reflecting plausible motivation and grievances. Buhaug, Cederman, and Gleditsch predict the risk of civil war using a horizontal inequality model with measures reflecting motivation and relevant group characteristics at the country level. The predictions from their model outperform in an out-of-sample forecast conventional country-level models of civil war, emphasizing vertical inequality and country characteristics. However, most grievance measures change little over time. We surmise that a model reflecting potential motivation for conflict can be improved with more dynamic information on mobilization and the behavior of actors. Our conjecture receives some support in the empirical analysis, where we consider both conflict onset and termination over territorial and governmental incompatibilities in the Uppsala/PRIO Armed Conflict Data, and find some evidence that event data can help improve forecasts. Moreover, models with the original grievance measures do better than purely event based models, supporting our claim that both structure and event based components can add value to conflict prediction models. However, the contribution of events to improving predictive power is modest and not entirely consistent, and some types of conflict events seem easier to forecast than others." /><meta property="og:image" content="https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_2.png" />
+    <meta property="twitter:image" content="https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -323,7 +362,7 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/publication/chiba-shape-things-come-2017/"
+    "@id": "https://dainachiba.github.io/publication/chiba-shape-things-come-2017/"
   },
   "headline": "The Shape of Things to Come? Expanding the Inequality and Grievance Model for Civil War Forecasts with Event Data",
   
@@ -340,7 +379,7 @@
     "name": "Daina Chiba",
     "logo": {
       "@type": "ImageObject",
-      "url": "/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_192x192_fill_lanczos_center_2.png"
+      "url": "https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "We examine if dynamic information from event data can help improve on a model attempting to forecast civil war using measures reflecting plausible motivation and grievances. Buhaug, Cederman, and Gleditsch predict the risk of civil war using a horizontal inequality model with measures reflecting motivation and relevant group characteristics at the country level. The predictions from their model outperform in an out-of-sample forecast conventional country-level models of civil war, emphasizing vertical inequality and country characteristics. However, most grievance measures change little over time. We surmise that a model reflecting potential motivation for conflict can be improved with more dynamic information on mobilization and the behavior of actors. Our conjecture receives some support in the empirical analysis, where we consider both conflict onset and termination over territorial and governmental incompatibilities in the Uppsala/PRIO Armed Conflict Data, and find some evidence that event data can help improve forecasts. Moreover, models with the original grievance measures do better than purely event based models, supporting our claim that both structure and event based components can add value to conflict prediction models. However, the contribution of events to improving predictive power is modest and not entirely consistent, and some types of conflict events seem easier to forecast than others."
@@ -918,7 +957,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/chiba-shape-things-come-2017/&amp;text=The%20Shape%20of%20Things%20to%20Come?%20Expanding%20the%20Inequality%20and%20Grievance%20Model%20for%20Civil%20War%20Forecasts%20with%20Event%20Data" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://dainachiba.github.io/publication/chiba-shape-things-come-2017/&amp;text=The%20Shape%20of%20Things%20to%20Come?%20Expanding%20the%20Inequality%20and%20Grievance%20Model%20for%20Civil%20War%20Forecasts%20with%20Event%20Data" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -931,7 +970,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/chiba-shape-things-come-2017/&amp;t=The%20Shape%20of%20Things%20to%20Come?%20Expanding%20the%20Inequality%20and%20Grievance%20Model%20for%20Civil%20War%20Forecasts%20with%20Event%20Data" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://dainachiba.github.io/publication/chiba-shape-things-come-2017/&amp;t=The%20Shape%20of%20Things%20to%20Come?%20Expanding%20the%20Inequality%20and%20Grievance%20Model%20for%20Civil%20War%20Forecasts%20with%20Event%20Data" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -944,7 +983,7 @@
       
       
       <li>
-        <a href="mailto:?subject=The%20Shape%20of%20Things%20to%20Come?%20Expanding%20the%20Inequality%20and%20Grievance%20Model%20for%20Civil%20War%20Forecasts%20with%20Event%20Data&amp;body=/publication/chiba-shape-things-come-2017/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=The%20Shape%20of%20Things%20to%20Come?%20Expanding%20the%20Inequality%20and%20Grievance%20Model%20for%20Civil%20War%20Forecasts%20with%20Event%20Data&amp;body=https://dainachiba.github.io/publication/chiba-shape-things-come-2017/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -957,7 +996,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/chiba-shape-things-come-2017/&amp;title=The%20Shape%20of%20Things%20to%20Come?%20Expanding%20the%20Inequality%20and%20Grievance%20Model%20for%20Civil%20War%20Forecasts%20with%20Event%20Data" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://dainachiba.github.io/publication/chiba-shape-things-come-2017/&amp;title=The%20Shape%20of%20Things%20to%20Come?%20Expanding%20the%20Inequality%20and%20Grievance%20Model%20for%20Civil%20War%20Forecasts%20with%20Event%20Data" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -970,7 +1009,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=The%20Shape%20of%20Things%20to%20Come?%20Expanding%20the%20Inequality%20and%20Grievance%20Model%20for%20Civil%20War%20Forecasts%20with%20Event%20Data%20/publication/chiba-shape-things-come-2017/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=The%20Shape%20of%20Things%20to%20Come?%20Expanding%20the%20Inequality%20and%20Grievance%20Model%20for%20Civil%20War%20Forecasts%20with%20Event%20Data%20https://dainachiba.github.io/publication/chiba-shape-things-come-2017/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -983,7 +1022,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/chiba-shape-things-come-2017/&amp;title=The%20Shape%20of%20Things%20to%20Come?%20Expanding%20the%20Inequality%20and%20Grievance%20Model%20for%20Civil%20War%20Forecasts%20with%20Event%20Data" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://dainachiba.github.io/publication/chiba-shape-things-come-2017/&amp;title=The%20Shape%20of%20Things%20to%20Come?%20Expanding%20the%20Inequality%20and%20Grievance%20Model%20for%20Civil%20War%20Forecasts%20with%20Event%20Data" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

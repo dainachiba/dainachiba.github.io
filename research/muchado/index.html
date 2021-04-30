@@ -33,7 +33,7 @@
   <meta name="description" content="We explore whether dynamic information from event data can improve our ability to forecast the onset and termination of international crises. Studies of dyadic interstate conflicts have demonstrated that taking into account contentious issues between countries can improve on conventional models explaining dyadic violent conflict based on purely structural factors (e." />
 
   
-  <link rel="alternate" hreflang="en-us" href="/research/muchado/" />
+  <link rel="alternate" hreflang="en-us" href="https://dainachiba.github.io/research/muchado/" />
 
   
 
@@ -251,6 +251,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-31191481-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-31191481-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -273,7 +312,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_32x32_fill_lanczos_center_2.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="/research/muchado/" />
+  <link rel="canonical" href="https://dainachiba.github.io/research/muchado/" />
 
   
   
@@ -290,10 +329,10 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Daina Chiba" />
-  <meta property="og:url" content="/research/muchado/" />
+  <meta property="og:url" content="https://dainachiba.github.io/research/muchado/" />
   <meta property="og:title" content="Much Ado about Something: Predicting Interstate Crises Onset and Resolution over Contentious Issues | Daina Chiba" />
-  <meta property="og:description" content="We explore whether dynamic information from event data can improve our ability to forecast the onset and termination of international crises. Studies of dyadic interstate conflicts have demonstrated that taking into account contentious issues between countries can improve on conventional models explaining dyadic violent conflict based on purely structural factors (e." /><meta property="og:image" content="/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="We explore whether dynamic information from event data can improve our ability to forecast the onset and termination of international crises. Studies of dyadic interstate conflicts have demonstrated that taking into account contentious issues between countries can improve on conventional models explaining dyadic violent conflict based on purely structural factors (e." /><meta property="og:image" content="https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_2.png" />
+    <meta property="twitter:image" content="https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -804,7 +843,7 @@ conflict data.</p>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/research/muchado/&amp;text=Much%20Ado%20about%20Something:%20Predicting%20Interstate%20Crises%20Onset%20and%20Resolution%20over%20Contentious%20Issues" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://dainachiba.github.io/research/muchado/&amp;text=Much%20Ado%20about%20Something:%20Predicting%20Interstate%20Crises%20Onset%20and%20Resolution%20over%20Contentious%20Issues" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -817,7 +856,7 @@ conflict data.</p>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/research/muchado/&amp;t=Much%20Ado%20about%20Something:%20Predicting%20Interstate%20Crises%20Onset%20and%20Resolution%20over%20Contentious%20Issues" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://dainachiba.github.io/research/muchado/&amp;t=Much%20Ado%20about%20Something:%20Predicting%20Interstate%20Crises%20Onset%20and%20Resolution%20over%20Contentious%20Issues" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -830,7 +869,7 @@ conflict data.</p>
       
       
       <li>
-        <a href="mailto:?subject=Much%20Ado%20about%20Something:%20Predicting%20Interstate%20Crises%20Onset%20and%20Resolution%20over%20Contentious%20Issues&amp;body=/research/muchado/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Much%20Ado%20about%20Something:%20Predicting%20Interstate%20Crises%20Onset%20and%20Resolution%20over%20Contentious%20Issues&amp;body=https://dainachiba.github.io/research/muchado/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -843,7 +882,7 @@ conflict data.</p>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/research/muchado/&amp;title=Much%20Ado%20about%20Something:%20Predicting%20Interstate%20Crises%20Onset%20and%20Resolution%20over%20Contentious%20Issues" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://dainachiba.github.io/research/muchado/&amp;title=Much%20Ado%20about%20Something:%20Predicting%20Interstate%20Crises%20Onset%20and%20Resolution%20over%20Contentious%20Issues" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -856,7 +895,7 @@ conflict data.</p>
       
       
       <li>
-        <a href="whatsapp://send?text=Much%20Ado%20about%20Something:%20Predicting%20Interstate%20Crises%20Onset%20and%20Resolution%20over%20Contentious%20Issues%20/research/muchado/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Much%20Ado%20about%20Something:%20Predicting%20Interstate%20Crises%20Onset%20and%20Resolution%20over%20Contentious%20Issues%20https://dainachiba.github.io/research/muchado/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -869,7 +908,7 @@ conflict data.</p>
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/research/muchado/&amp;title=Much%20Ado%20about%20Something:%20Predicting%20Interstate%20Crises%20Onset%20and%20Resolution%20over%20Contentious%20Issues" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://dainachiba.github.io/research/muchado/&amp;title=Much%20Ado%20about%20Something:%20Predicting%20Interstate%20Crises%20Onset%20and%20Resolution%20over%20Contentious%20Issues" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -902,11 +941,11 @@ conflict data.</p>
   <div class="media author-card content-widget-hr">
     
       
-      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hudcb4b104052cf2e06ddf11212c3178e4_96843_270x270_fill_q75_lanczos_center.jpg" alt="Daina Chiba">
+      <a href="https://dainachiba.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hudcb4b104052cf2e06ddf11212c3178e4_96843_270x270_fill_q75_lanczos_center.jpg" alt="Daina Chiba"></a>
     
 
     <div class="media-body">
-      <h5 class="card-title">Daina Chiba</h5>
+      <h5 class="card-title"><a href="https://dainachiba.github.io/">Daina Chiba</a></h5>
       <h6 class="card-subtitle">Political Scientist</h6>
       <p class="card-text">My research interests include international security, international institutions, and political methodology.</p>
       <ul class="network-icon" aria-hidden="true">

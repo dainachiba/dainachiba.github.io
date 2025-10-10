@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tobias Heinrich | Daina Chiba</title>
+    <link>https://dainachiba.github.io/authors/tobias-heinrich/</link>
+      <atom:link href="https://dainachiba.github.io/authors/tobias-heinrich/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tobias Heinrich</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_3.png</url>
+      <title>Tobias Heinrich</title>
+      <link>https://dainachiba.github.io/authors/tobias-heinrich/</link>
+    </image>
+    
+    <item>
+      <title>Colonial Legacy and Foreign Aid: Decomposing the Colonial Bias</title>
+      <link>https://dainachiba.github.io/publication/chiba-colonial-legacy-foreign-2019/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://dainachiba.github.io/publication/chiba-colonial-legacy-foreign-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nils W. Metternich | Daina Chiba</title>
+    <link>https://dainachiba.github.io/authors/nils-w.-metternich/</link>
+      <atom:link href="https://dainachiba.github.io/authors/nils-w.-metternich/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nils W. Metternich</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_3.png</url>
+      <title>Nils W. Metternich</title>
+      <link>https://dainachiba.github.io/authors/nils-w.-metternich/</link>
+    </image>
+    
+    <item>
+      <title>Every Story Has a Beginning, Middle, and an End (But Not Always in That Order): Predicting Duration Dynamics in a Unified Framework</title>
+      <link>https://dainachiba.github.io/publication/chiba-every-story-has-2015/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://dainachiba.github.io/publication/chiba-every-story-has-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

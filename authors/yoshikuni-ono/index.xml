@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yoshikuni Ono | Daina Chiba</title>
+    <link>https://dainachiba.github.io/authors/yoshikuni-ono/</link>
+      <atom:link href="https://dainachiba.github.io/authors/yoshikuni-ono/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yoshikuni Ono</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_3.png</url>
+      <title>Yoshikuni Ono</title>
+      <link>https://dainachiba.github.io/authors/yoshikuni-ono/</link>
+    </image>
+    
+    <item>
+      <title>Do Daughters Change Their Fathers? Evidence from the First-Daughter Effect in Japan</title>
+      <link>https://dainachiba.github.io/research/daughter/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://dainachiba.github.io/research/daughter/</guid>
+      <description>&lt;p&gt;Family experiences—especially the gender of one’s children—can reshape parents’ political attitudes, challenging traditional models of political socialization. Studies in advanced democracies find that fathers of first-born daughters adopt more egalitarian views on gender roles, a phenomenon known as the first-daughter effect. Yet evidence from more conservative or non-Western contexts remains limited or inconclusive. This study examines whether the first-daughter effect holds in Japan, a country with stable democratic institutions but persistent gender inequality. Using nationally representative survey data from 2000 to 2018 and leveraging the quasi-random assignment of first-child sex, we find that Japanese fathers with first-born daughters exhibit significantly more gender-egalitarian attitudes and stronger support for related policy reforms, such as dual-surname legislation. These effects are specific to gender-related domains and do not extend to broader political ideology or non-gender-related policy preferences. Our findings contribute to research on reverse political socialization by demonstrating that the experience of raising daughters can shift core political attitudes, even in culturally conservative settings. This suggests that private, familial dynamics may serve as an underrecognized but powerful mechanism for promoting gender equality in public opinion.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

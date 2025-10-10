@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>William Reed | Daina Chiba</title>
+    <link>https://dainachiba.github.io/authors/william-reed/</link>
+      <atom:link href="https://dainachiba.github.io/authors/william-reed/index.xml" rel="self" type="application/rss+xml" />
+    <description>William Reed</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_3.png</url>
+      <title>William Reed</title>
+      <link>https://dainachiba.github.io/authors/william-reed/</link>
+    </image>
+    
+    <item>
+      <title>Major Powers and Militarized Conflict</title>
+      <link>https://dainachiba.github.io/publication/chiba-major-powers-militarized-2014/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>https://dainachiba.github.io/publication/chiba-major-powers-militarized-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decomposing the Relationship Between Contiguity and Militarized Conflict</title>
+      <link>https://dainachiba.github.io/publication/reed-decomposing-relationship-contiguity-2010/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://dainachiba.github.io/publication/reed-decomposing-relationship-contiguity-2010/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

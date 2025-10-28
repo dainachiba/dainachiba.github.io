@@ -1,0 +1,35 @@
+# Theme metadata
+name = "MyBlue"
+
+# Is theme light or dark?
+is_light = false
+
+# Primary
+primary = "#0b41a0"
+
+# Menu
+menu_primary = "#243856"
+menu_text = "#fff"
+menu_text_active = "#7392b9"
+menu_title = "#fff"
+menu_text_hover = "red"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"
+
+[dark]
+    # Menu
+    menu_primary = "#243856"
+    menu_text = "#fff"
+    menu_text_active = "#7392b9"
+    menu_title = "#fff"
+
+    # Backgrounds
+    home_section_odd = "hsla(231, 15%, 18%, 1)"
+    home_section_even = "hsla(231, 15%, 16%, 1)"
+    
+    # Primary
+    primary = "#9cc0d9"
+    link = "#9cc0d9"
+    link_hover = "#bbdefb"

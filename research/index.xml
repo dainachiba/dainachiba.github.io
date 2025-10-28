@@ -5,7 +5,7 @@
     <link>https://dainachiba.github.io/research/</link>
       <atom:link href="https://dainachiba.github.io/research/index.xml" rel="self" type="application/rss+xml" />
     <description>Researches</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_3.png</url>
       <title>Researches</title>
@@ -13,20 +13,20 @@
     </image>
     
     <item>
+      <title>The Gender Gap in Peace and Conflict Journals, 2000-2024</title>
+      <link>https://dainachiba.github.io/research/genderpeaceconflict/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://dainachiba.github.io/research/genderpeaceconflict/</guid>
+      <description>&lt;p&gt;While the issue of gender representation has gained increasing recognition across various academic disciplines, existing knowledge about the current state of gender representation in peace and conflict studies remains limited. This study aims to investigate gender representation in peace and conflict studies by examining a newly collected dataset of articles published in five academic journals representative of the field between 2000 and 2024. We find that, although the gender gap has not disappeared yet, it has narrowed over time. Our results show that increased collaboration, particularly across genders, appears to be an important driver of this trend. Additionally, we find evidence that gender differences in topical specialization exist in the field and that a gender gap in citation patterns exists for some of the field&amp;rsquo;s core journals. Continued efforts are needed to further improve gender representation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Legislative Politics under &#39;One Country, Two Systems&#39;: Evidence from Macau, 2013–2021</title>
       <link>https://dainachiba.github.io/research/macaulegis/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://dainachiba.github.io/research/macaulegis/</guid>
       <description>&lt;p&gt;This paper investigates the dynamics of legislative politics within the unique political context of the Macau Special Administrative Region (SAR) of China. Drawing on recently collected data from roll-call votes and committee deliberations taken during the fifth and sixth legislative assemblies, this study shifts the focus from electoral processes and resolution proposals to an analysis of bill proposals with the potential to become law. The findings reveal a structural dichotomy between a large, cohesive pro-establishment faction and a smaller, more fragmented opposition, which contrasts with the findings of previous research that suggest a more balanced opposition. Further analysis of committee deliberations indicates that this stable dichotomy allows regime loyalists to voice dissent without appearing rebellious, enabling ruling elites to gauge and respond to constituents’ preferences on non-sensitive issues. This dynamic highlights the distinct legislative practices of Macau SAR under the “one country, two systems” framework.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Gender Gap in Peace and Conflict Journals, 2000-2024</title>
-      <link>https://dainachiba.github.io/research/genderpeaceconflict/</link>
-      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://dainachiba.github.io/research/genderpeaceconflict/</guid>
-      <description>&lt;p&gt;While the issue of gender representation has gained increasing recognition across various academic disciplines, existing knowledge about the current state of gender representation in peace and conflict studies remains limited. This study aims to investigate gender representation in peace and conflict studies by examining a newly collected dataset of articles published in five academic journals representative of the field between 2000 and 2024. We find that, although the gender gap has not disappeared yet, it has narrowed over time. Our results show that increased collaboration, particularly across genders, as well as changes in citation practices over time appear to be important drivers of this trend. Additionally, we find evidence that gender differences in topical specialization exist in the field and that work involving female authors is cited more than all-male research. However, continued efforts are needed to further improve gender representation.&lt;/p&gt;
 </description>
     </item>
     

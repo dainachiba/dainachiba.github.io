@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>International Security | Daina Chiba</title>
+    <link>https://dainachiba.github.io/tag/international-security/</link>
+      <atom:link href="https://dainachiba.github.io/tag/international-security/index.xml" rel="self" type="application/rss+xml" />
+    <description>International Security</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_3.png</url>
+      <title>International Security</title>
+      <link>https://dainachiba.github.io/tag/international-security/</link>
+    </image>
+    
+    <item>
+      <title>What Does it Mean to be a Reliable Ally?</title>
+      <link>https://dainachiba.github.io/research/alliance/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://dainachiba.github.io/research/alliance/</guid>
+      <description>&lt;p&gt;The value of military alliances is closely tied to whether alliance members will uphold their commitment if the treaty is invoked. Doubt about the reliability of an alliance can encourage aggression from rivals and, potentially, leave a state abandoned and fighting alone. Leveraging historical data on alliances and war, scholars have produced a variety of estimates of the reliability of alliances over time. We collect updated data on alliance reliability, highlighting some of the critical definitions and coding rules that impact assessments of reliability. We produce several different estimates of reliability at two levels of analysis (the alliance and the ally) using different data sources. We estimate that about two-thirds of the alliances invoked by war over a two-hundred year period were fulfilled, and about one-third violated. We note, however, that in the post-WWII period, alliance reliability, particularly among multilateral alliances, is lower than in prior eras. The lower estimate for multilateral alliance reliability after 1945 is driven by a small number of closely related cases, but still raises many questions for future research about potential changes in alliances and war that lead to different patterns in observed reliability.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Make Two Democracies and Call Me in the Morning: Endogenous Regime Type and the Democratic Peace</title>
+      <link>https://dainachiba.github.io/research/make2dem/</link>
+      <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://dainachiba.github.io/research/make2dem/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,12 +5,21 @@
     <link>https://dainachiba.github.io/research/</link>
       <atom:link href="https://dainachiba.github.io/research/index.xml" rel="self" type="application/rss+xml" />
     <description>Researches</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 12 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dainachiba.github.io/media/icon_hu2e8632b74444b790220bb01d3e17bdf2_10117_512x512_fill_lanczos_center_3.png</url>
       <title>Researches</title>
       <link>https://dainachiba.github.io/research/</link>
     </image>
+    
+    <item>
+      <title>The Gender Gap in Peace and Conflict Journals, 2000-2024</title>
+      <link>https://dainachiba.github.io/research/genderpeaceconflict/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dainachiba.github.io/research/genderpeaceconflict/</guid>
+      <description>&lt;p&gt;While the issue of gender representation has gained increasing recognition across various academic disciplines, existing knowledge about the current state of gender representation in peace and conflict studies remains limited. This study aims to investigate gender representation in peace and conflict studies by examining a newly collected dataset of articles published in five academic journals representative of the field between 2000 and 2024. We find that, although the gender gap has not disappeared yet, it has narrowed over time. Our results show that increased collaboration, particularly across genders, appears to be an important driver of this trend. Additionally, we find evidence that gender differences in topical specialization exist in the field and that a gender gap in citation patterns exists for some of the field&amp;rsquo;s core journals. Continued efforts are needed to further improve gender representation.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Do Daughters Change Their Fathers? Evidence from the First-Daughter Effect in Japan</title>
@@ -27,15 +36,6 @@
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://dainachiba.github.io/research/alliance/</guid>
       <description>&lt;p&gt;The value of military alliances is closely tied to whether alliance members will uphold their commitment if the treaty is invoked. Doubt about the reliability of an alliance can encourage aggression from rivals and, potentially, leave a state abandoned and fighting alone. Leveraging historical data on alliances and war, scholars have produced a variety of estimates of the reliability of alliances over time. We collect updated data on alliance reliability, highlighting some of the critical definitions and coding rules that impact assessments of reliability. We produce several different estimates of reliability at two levels of analysis (the alliance and the ally) using different data sources. We estimate that about two-thirds of the alliances invoked by war over a two-hundred year period were fulfilled, and about one-third violated. We note, however, that in the post-WWII period, alliance reliability, particularly among multilateral alliances, is lower than in prior eras. The lower estimate for multilateral alliance reliability after 1945 is driven by a small number of closely related cases, but still raises many questions for future research about potential changes in alliances and war that lead to different patterns in observed reliability.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Gender Gap in Peace and Conflict Journals, 2000-2024</title>
-      <link>https://dainachiba.github.io/research/genderpeaceconflict/</link>
-      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://dainachiba.github.io/research/genderpeaceconflict/</guid>
-      <description>&lt;p&gt;While the issue of gender representation has gained increasing recognition across various academic disciplines, existing knowledge about the current state of gender representation in peace and conflict studies remains limited. This study aims to investigate gender representation in peace and conflict studies by examining a newly collected dataset of articles published in five academic journals representative of the field between 2000 and 2024. We find that, although the gender gap has not disappeared yet, it has narrowed over time. Our results show that increased collaboration, particularly across genders, appears to be an important driver of this trend. Additionally, we find evidence that gender differences in topical specialization exist in the field and that a gender gap in citation patterns exists for some of the field&amp;rsquo;s core journals. Continued efforts are needed to further improve gender representation.&lt;/p&gt;
 </description>
     </item>
     
